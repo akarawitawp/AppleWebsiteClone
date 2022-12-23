@@ -1,0 +1,562 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    margin: 0px;
+}
+.nav-bar{
+    position: fixed;
+    display: flex;
+    background-color: rgb(15, 14, 14);
+    justify-content:center;
+    align-items:center;
+    width: 100%;
+    margin: 0px;
+    padding:5px ;
+    height: 30px;
+    list-style-type: none;
+    z-index: 3;
+    opacity: 0.8;
+}
+.navbar-subject:hover{
+    filter: brightness(2);
+}
+.imag{
+    background-image: white;
+    width:25px;
+    height: 25px;
+    cursor: pointer;
+}
+.imag2{
+    background-image: white;
+    width:18px;
+    height: 18px;
+    cursor: pointer;
+}
+.imag3{
+    background-image: white;
+    margin-left: 20px;
+    width:30px;
+    height: 30px;
+    cursor: pointer;
+}
+.select1{
+    color: rgb(0, 132, 255);
+}
+.h3{
+    margin-top: 38px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(241, 238, 235, 0.897);
+    font-size: 13px;
+    width: 100vw;
+}
+.navbar-subject{
+    margin: 0 30px;
+    color: rgba(240, 248, 255, 0.747);
+    cursor: pointer;
+    font-size: small;
+}
+img .apple{
+    opacity: 0.1;
+}
+.iphone-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.iphone-container h1{
+    font-size: 50px;
+}
+.iphone-container h2{
+    margin-top: -10px;
+}
+.iphone-container h3{
+    margin-top: -10px;
+}
+.more1{
+    display: flex;
+    gap: 50px;
+}
+ .h22:hover{
+    text-decoration: underline;
+}
+ .h21:hover{
+    text-decoration: underline;
+}
+.iphone-container img {
+    margin-top: -150px;
+    background-color: antiquewhite;
+    scale: 0.6;
+}
+.ipad-container{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin-left:-50px ;
+    margin-top: -200px;
+}
+.ipad-descript{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ipad{
+    scale: 0.7;
+}
+
+.h21{
+    color: rgb(0, 132, 255) ;
+}
+
+.h22{
+    color: rgb(0, 132, 255) ;
+}
+
+.slogan-container{
+    background-color: rgb(4, 1, 44);
+    height:568px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slogan1{
+   display: flex;
+   margin-top: -250px;
+   flex-direction: column;
+   align-items: center;
+   line-height: 1px;
+}
+
+.slogan1 h4:hover{
+    text-decoration: underline;
+}
+
+.slogan-container img{
+    scale: 0.3;
+    margin-top: -200px;
+}
+
+.mini-contianer{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    gap: 10px;
+    justify-content: center;
+}
+
+.description-product{
+    color: aliceblue;
+    text-align: center;
+}
+
+.Iphone1{
+    background-color: black;
+    width: 48%;
+    height: 624px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Iphone1 img{
+    margin-top: 200px;
+    position: absolute;
+    clip:rect(40px,900px,900px,50px);
+    height: 400px;
+    width: inherit;
+}
+
+.Airpod1{
+    background-image:url('/รูปภาพ/16660749008_9a44fac706_b.jpg');
+    width: 48%;
+    height: 624px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.description-product2{
+    color: #000;
+    text-align: center;
+    line-height: 10px;
+}
+
+.Ipadpro1{
+    background-color:rgb(5, 1, 15);
+    width: 48%;
+    height: 624px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Ipadpic{
+    margin-top: -120px;
+    scale: 0.6;
+    overflow: hidden;
+}
+@media screen and (max-width: 1200px){
+    .Ipadpic{
+     scale :0.3;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .Ipadpic{
+     scale :0.3;
+    }
+}
+
+.Watch1{
+    background-color:white;
+    width: 48%;
+    height: 624px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.watchPIC{
+    margin-top:100px ;
+    object-fit: contain;
+    width: 900px;
+    
+}
+
+@media screen and (min-width: 1920px){
+    .watchPIC{
+     width: 900px;
+    }
+}
+
+@media screen and (max-width: 1700px){
+    .watchPIC{
+     width: 800px;
+    }
+}
+
+@media screen and (max-width: 1500px){
+    .watchPIC{
+     width: 700px;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .watchPIC{
+     width: 600px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .watchPIC{
+     width: 500px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .watchPIC{
+     width: 400px;
+    }
+}
+
+
+.Watchseries8{
+    background-color: black;
+    width: 48%;
+    height: 624px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.watch8{
+    position: absolute;
+    clip:rect(100px,700px,800px,25px);
+    margin-top: 150px;
+    object-fit: cover;
+    width: 900px;
+    overflow: hidden;
+}
+@media screen and (min-width: 1920px){
+    .watch8{
+     width: 800px;
+     margin-top: 200px;
+    }
+}
+@media screen and (max-width: 1700px){
+    .watch8{
+        position: absolute;
+    clip:rect(50px,700px,800px,25px);
+     width: 650px;
+     margin-top: 240px;
+     
+    }
+}
+@media screen and (max-width: 1500px){
+    .watch8{
+     width: 650px;
+     margin-top: 260px;
+    }
+}
+@media screen and (max-width: 1300px){
+    .watch8{
+     width: 550px;
+     margin-top: 270px;
+    }
+}
+@media screen and (max-width: 1100px){
+    .watch8{
+     width: 450px;
+     margin-top: 280px;
+    }
+}
+@media screen and (max-width: 900px){
+    .watch8{
+     width: 350px;
+     margin-top: 290px;
+    }
+}
+@media screen and (max-width: 700px){
+    .watch8{
+     width: 250px;
+     margin-top: 310px;
+    }
+}
+.Tv4k{
+    background-color: #fff;
+    width: 48%;
+    height: 624px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.remote1{
+    margin-top: 100px;
+    scale:0.6;
+    position: absolute;
+    clip:rect(50px,900px,900px,0px);
+}
+
+.description-product3{
+    text-align: center;
+    line-height: 1px;
+}
+.slide-window{
+    height: 1200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mini-link{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.learning-list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 12px;
+    line-height: 20px;
+}
+.learning-list li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.service-list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 12px;
+    line-height: 20px;
+}
+.service-list li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.account-list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 12px;
+    line-height: 20px;
+}
+.account-list li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.AppleStore-list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 12px;
+    line-height: 20px;
+}
+.AppleStore-list li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.business-list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 12px;
+    line-height: 20px;
+}
+.business-list li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.education-list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 12px;
+    line-height: 20px;
+}
+.education-list li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.health-list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 12px;
+    line-height: 20px;
+}
+.health-list li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.value-list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 12px;
+    line-height: 20px;
+}
+.value-list li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.about-list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 12px;
+    line-height: 20px;
+}
+.about-list li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.moreInfo{
+    border-bottom: 1px solid rgba(68, 64, 64, 0.644);
+    font-size: 7px;
+    color: rgba(82, 78, 78, 0.644);
+    width: 800px;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(82, 78, 78, 0.644);
+    width: 800px;
+    margin-top: -10px;
+    padding: 0px;
+    font-size: 12px;
+}
+.Language{
+    display:flex;
+    padding: 0px;
+    
+}
+.policy{
+    color: rgba(82, 78, 78, 0.644);
+    display: flex;
+    gap: 5px;
+    justify-content:flex-start;
+    width: 800px;
+    font-size: 12px;
+    margin-top: -10px;
+}
+.policy .ab,.ac,.ad,.ae{
+    border-right: 1px solid rgba(82, 78, 78, 0.644);
+    padding-right: 5px;
+}
+.ab:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.ac:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.ad:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.ae:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.af:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.search1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.shop1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.thai1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.english1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
